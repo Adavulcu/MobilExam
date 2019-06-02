@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/GLStokItem"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ccccff"
+        app:columnCount="7"
+        app:rowCount="1"
+        app:useDefaultMargins="true">
+
+        <TextView
+            android:id="@+id/textViewSembol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sembol"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+             />
+
+        <TextView
+            android:id="@+id/textViewFiyat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fiyat"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textViewFark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fark"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textViewHacim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hacim"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textViewAlis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alış"
+            app:layout_column="4"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/textViewSatis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satış"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            app:layout_column="5"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/ImgDegisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            app:layout_gravity="center"
+            app:srcCompat="@mipmap/ic_launcher"
+            app:layout_column="6"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+    </android.support.v7.widget.GridLayout>
+
+
+</LinearLayout>

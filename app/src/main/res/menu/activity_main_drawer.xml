@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hisse_ve_endeksler"
+
+            android:title="Hisse ve Endeksler" />
+        <item
+            android:id="@+id/yukselen"
+
+            android:title="Yükselenler" />
+        <item
+            android:id="@+id/dusunler"
+
+            android:title="Düşenler" />
+        <item
+            android:id="@+id/hacim30"
+
+            android:title="Hacme Göre - 30" />
+        <item
+            android:id="@+id/hacim50"
+
+            android:title="Hacme Göre - 50" />
+        <item
+            android:id="@+id/hacim100"
+
+            android:title="Hacme Göre - 100" />
+    </group>
+
+
+
+</menu>

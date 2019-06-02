@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StokListActivity"><![CDATA[
+
+
+        android:layout_width="358dp"
+        android:layout_height="660dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+    ]]>
+
+
+
+    <android.support.v7.widget.GridLayout
+            android:id="@+id/stokGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#ccccff"
+            app:columnCount="7"
+            app:rowCount="1"
+            app:useDefaultMargins="true">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sembol"
+                app:layout_column="0"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fiyat"
+                app:layout_column="1"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fark"
+                app:layout_column="2"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hacim"
+                app:layout_column="3"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alış"
+                app:layout_column="4"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satış"
+                app:layout_column="5"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Değişim"
+                app:layout_column="6"
+                app:layout_columnWeight="1"
+                app:layout_row="0" />
+        </android.support.v7.widget.GridLayout>
+
+        <ListView
+            android:id="@+id/HisseListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </ListView>
+
+
+
+
+</LinearLayout>
